@@ -1,0 +1,7 @@
+com/example/demo/repositories/EtudiantRepository.class
+com/example/demo/models/Etudiant.class
+com/example/demo/controllers/NoteController.class
+com/example/demo/models/Note.class
+com/example/demo/repositories/NoteRepository.class
+com/example/demo/K8sApplication.class
+com/example/demo/controllers/EtudiantController.class

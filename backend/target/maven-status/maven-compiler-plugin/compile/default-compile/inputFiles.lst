@@ -1,0 +1,7 @@
+/home/hamza/project_k8s/backend/src/main/java/com/example/demo/K8sApplication.java
+/home/hamza/project_k8s/backend/src/main/java/com/example/demo/controllers/EtudiantController.java
+/home/hamza/project_k8s/backend/src/main/java/com/example/demo/controllers/NoteController.java
+/home/hamza/project_k8s/backend/src/main/java/com/example/demo/models/Etudiant.java
+/home/hamza/project_k8s/backend/src/main/java/com/example/demo/models/Note.java
+/home/hamza/project_k8s/backend/src/main/java/com/example/demo/repositories/EtudiantRepository.java
+/home/hamza/project_k8s/backend/src/main/java/com/example/demo/repositories/NoteRepository.java
