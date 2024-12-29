@@ -7,7 +7,7 @@ function EtudiantList() {
 
   const fetchEtudiants = async () => {
     try {
-      const response = await axios.get("http://localhost:8080/api/etudiants");
+      const response = await axios.get("http://backend.exam.svc.cluster.local/api/etudiants");
       setEtudiants(response.data);
     } catch (error) {
       console.error("Erreur lors de la récupération des étudiants :", error);

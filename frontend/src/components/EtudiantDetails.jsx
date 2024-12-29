@@ -8,11 +8,11 @@ const EtudiantDetails = () => {
   const [notes, setNotes] = useState([]);
 
   useEffect(() => {
-    axios.get(`http://localhost:8080/api/etudiants/${id}`)
+    axios.get(`http://backend.exam.svc.cluster.local/api/etudiants/${id}`)
       .then((response) => setEtudiant(response.data))
       .catch((error) => console.error(error));
 
-    axios.get(`http://localhost:8080/api/notes/${id}`)
+    axios.get(`http://backend.exam.svc.cluster.local/api/notes/${id}`)
       .then((response) => setNotes(response.data))
       .catch((error) => console.error(error));
   }, [id]);

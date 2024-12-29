@@ -1,17 +1,17 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: postgres
+  name: postgres-container
   namespace: exam
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: postgres
+      app: postgres-container
   template:
     metadata:
       labels:
-        app: postgres
+        app: postgres-container
     spec:
       containers:
       - name: postgres

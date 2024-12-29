@@ -4,5 +4,5 @@ metadata:
   name: app-config
   namespace: exam
 data:
-  DATABASE_HOST: postgres
+  DATABASE_HOST: postgres-container
   DATABASE_PORT: "5432"

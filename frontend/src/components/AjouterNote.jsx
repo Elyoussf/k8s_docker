@@ -11,7 +11,7 @@ const AjouterNote = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post(`http://localhost:8080/api/notes/${id}`, {
+      .post(`http://backend.exam.svc.cluster.local/api/notes/${id}`, {
         nomDuCours,
         valeurDeNote,
       })

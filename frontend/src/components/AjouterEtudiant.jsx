@@ -9,7 +9,7 @@ function AjouterEtudiant() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:8080/api/etudiants", { nom });
+      await axios.post("http://backend.exam.svc.cluster.local/api/etudiants", { nom });
       navigate("/"); // Redirection après soumission
     } catch (error) {
       console.error("Erreur lors de l'ajout d'un étudiant :", error);
